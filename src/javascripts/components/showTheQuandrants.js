@@ -1,4 +1,4 @@
-import buildQuadrants from './buildQuadrants';
+/* import buildQuadrants from './buildQuadrants';
 
 const showQuadrants = (array) => {
   $('#eat').html('');
@@ -19,3 +19,4 @@ const showQuadrants = (array) => {
 };
 
 export default { showQuadrants };
+ */

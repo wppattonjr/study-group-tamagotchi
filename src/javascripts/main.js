@@ -1,9 +1,14 @@
 import '../styles/components/globals/main.scss';
-import petActionsData from '../data/petData';
-import showTheQuadrants from './components/showTheQuandrants';
+import eatQuadrant from './components/eatQuadrant';
+import playQuadrant from './components/playQuadrant';
+import fightQuadrant from './components/fightQuadrant';
+import sleepQuadrant from './components/sleepQuadrant';
 
 const init = () => {
-  showTheQuadrants.showQuadrants(petActionsData.getPetActions());
+  eatQuadrant.eatQuad();
+  playQuadrant.playQuad();
+  fightQuadrant.fightQuad();
+  sleepQuadrant.sleepQuad();
 };
 
 init();
