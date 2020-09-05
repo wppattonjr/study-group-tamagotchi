@@ -31,11 +31,11 @@ const eatButtons = () => {
 
 const eatQuad = () => {
   const domString = $('#eat').html(`
-      <div class="card-container">
+      <div class="card-container" id="eat">
           <h1 class="cardHeader">Eat</h1>
           <div class="button-group">
-              <button id="healthy">Healthy</button>
               <button id="unhealthy">Unhealthy</button>
+              <button id="healthy">Healthy</button>
           </div>
           <div class="full" id="full">${full}</div>
       </div>

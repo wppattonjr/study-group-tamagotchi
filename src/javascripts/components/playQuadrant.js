@@ -31,14 +31,14 @@ const playButtons = () => {
 
 const playQuad = () => {
   const domString = $('#play').html(`
-      <div class="card-container">
+      <div class="card-container" id="play">
           <h1 class="cardHeader">Play</h1>
           <div class="button-group">
-              <button id="superFun">Super Fun</button>
               <button id="slightlyFun">Slightly Fun</button>
+              <button id="superFun">Super Fun</button>
           </div>
-          <div class="fun" id="fun">${fun}</div>
-      </div>
+              <div class="fun" id="fun">${fun}</div>
+          </div>
   `);
   playButtons();
   return domString;

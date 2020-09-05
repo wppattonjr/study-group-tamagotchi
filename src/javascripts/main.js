@@ -1,4 +1,4 @@
-import '../styles/components/globals/main.scss';
+import '../styles/components/main.scss';
 import eatQuadrant from './components/eatQuadrant';
 import playQuadrant from './components/playQuadrant';
 import fightQuadrant from './components/fightQuadrant';
