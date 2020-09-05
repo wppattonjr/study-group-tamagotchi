@@ -1,4 +1,4 @@
-const buildQuandrants = (name, button1, button2, score) => {
+/* const buildQuandrants = (name, button1, button2, score) => {
   const domString = $(`#${name}`).html(`
     <div class="card-container${name}">
         <h1>${name}</h1>
@@ -13,4 +13,4 @@ const buildQuandrants = (name, button1, button2, score) => {
   return domString;
 };
 
-export default { buildQuandrants };
+export default { buildQuandrants }; */
