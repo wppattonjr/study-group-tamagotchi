@@ -1,8 +1,9 @@
-import '../styles/main.scss';
+import '../styles/components/globals/main.scss';
+import petActionsData from '../data/petData';
+import showTheQuadrants from './components/showTheQuandrants';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  showTheQuadrants.showQuadrants(petActionsData.getPetActions());
 };
 
 init();
