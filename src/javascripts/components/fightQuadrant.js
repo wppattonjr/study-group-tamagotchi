@@ -31,11 +31,11 @@ const fightButtons = () => {
 
 const fightQuad = () => {
   const domString = $('#fight').html(`
-      <div class="card-container">
+      <div class="card-container" id="fight">
           <h1 class="cardHeader">Fight</h1>
           <div class="button-group">
-              <button id="runningAway">Bravely Running Away</button>
               <button id="commitViolence">Committing Violence</button>
+              <button id="runningAway">Bravely Running Away</button>
           </div>
           <div class="strength" id="strength">${strength}</div>
       </div>

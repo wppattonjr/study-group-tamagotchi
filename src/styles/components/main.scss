@@ -1,0 +1,54 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+    background-color: rgb(241, 237, 238);
+    color: A9DDD6;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+.card-container {
+    width: 37%;
+    margin: 1%;
+    background-color: rgb(61, 84, 103);
+    box-shadow: $box-shadow;
+
+}
+
+#eat.card-container {
+    background-color: rgb(68, 187, 164);
+    position: absolute;
+    top: 8px;
+    left:16px;
+}
+
+#fight.card-container {
+    background-color: rgb(219, 84, 97);
+    position: absolute;
+    bottom: 8px;
+    
+
+}
+
+#sleep.card-container {
+    background-color: rgb(61, 84, 103);
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+
+}
+
+#play.card-container {
+    background-color: rgb(104, 105, 99);
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+#pet {
+    background-image: url('https://i.redd.it/ggr9jgrljq531.jpg');
+    height: 65%;
+    background-size: cover;
+    background-position: center;
+};
