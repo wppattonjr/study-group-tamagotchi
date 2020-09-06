@@ -19,13 +19,13 @@ const commitViolence = () => {
 };
 
 const fightButtons = () => {
-  $('#runningAway').click(() => {
+  $('#runningAway').on('click', () => {
     $('#strength').html('');
-    $('#strength').html(`<div>${runningAway()}</div>`);
+    $('#strength').html(`<div>Strength Score: ${runningAway()}</div>`);
   });
-  $('#commitViolence').click(() => {
+  $('#commitViolence').on('click', () => {
     $('#strength').html('');
-    $('#strength').html(`<div>${commitViolence()}</div>`);
+    $('#strength').html(`<div>Strength Score: ${commitViolence()}</div>`);
   });
 };
 
@@ -37,7 +37,7 @@ const fightQuad = () => {
               <button id="commitViolence">Committing Violence</button>
               <button id="runningAway">Bravely Running Away</button>
           </div>
-          <div class="strength" id="strength">${strength}</div>
+          <div class="strength" id="strength">Strength Score: ${strength}</div>
       </div>
   `);
   fightButtons();

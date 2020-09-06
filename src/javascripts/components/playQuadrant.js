@@ -19,13 +19,13 @@ const slightlyFun = () => {
 };
 
 const playButtons = () => {
-  $('#superFun').click(() => {
+  $('#superFun').on('click', () => {
     $('#fun').html('');
-    $('#fun').html(`<div>${superFun()}</div>`);
+    $('#fun').html(`<div>Fun Score: ${superFun()}</div>`);
   });
-  $('#slightlyFun').click(() => {
+  $('#slightlyFun').on('click', () => {
     $('#fun').html('');
-    $('#fun').html(`<div>${slightlyFun()}</div>`);
+    $('#fun').html(`<div>Fun Score: ${slightlyFun()}</div>`);
   });
 };
 
@@ -37,7 +37,7 @@ const playQuad = () => {
               <button id="slightlyFun">Slightly Fun</button>
               <button id="superFun">Super Fun</button>
           </div>
-              <div class="fun" id="fun">${fun}</div>
+              <div class="fun" id="fun">Fun Score: ${fun}</div>
           </div>
   `);
   playButtons();

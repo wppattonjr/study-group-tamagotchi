@@ -1,8 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+}
 
 body {
-    background-color: rgb(241, 237, 238);
+    background-color: rgb(61, 84, 103);
     color: A9DDD6;
     text-align: center;
     margin-top: 100px;
@@ -32,7 +38,7 @@ body {
 }
 
 #sleep.card-container {
-    background-color: rgb(61, 84, 103);
+    background-color: rgb(143, 99, 99);
     position: absolute;
     bottom: 16px;
     right: 16px;
@@ -46,9 +52,16 @@ body {
     right: 16px;
 }
 
-#pet {
-    background-image: url('https://i.redd.it/ggr9jgrljq531.jpg');
-    height: 65%;
-    background-size: cover;
-    background-position: center;
-};
+.image-container {
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    
+   
+
+    img {
+        width: 300px;
+    }
+}
+

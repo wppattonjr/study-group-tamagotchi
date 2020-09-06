@@ -19,13 +19,13 @@ const unhealthy = () => {
 };
 
 const eatButtons = () => {
-  $('#healthy').click(() => {
+  $('#healthy').on('click', () => {
     $('#full').html('');
-    $('#full').html(`<div>${healthy()}</div>`);
+    $('#full').html(`<div>Fullness Score: ${healthy()}</div>`);
   });
-  $('#unhealthy').click(() => {
+  $('#unhealthy').on('click', () => {
     $('#full').html('');
-    $('#full').html(`<div>${unhealthy()}</div>`);
+    $('#full').html(`<div>Fulleness Score: ${unhealthy()}</div>`);
   });
 };
 
@@ -37,7 +37,7 @@ const eatQuad = () => {
               <button id="unhealthy">Unhealthy</button>
               <button id="healthy">Healthy</button>
           </div>
-          <div class="full" id="full">${full}</div>
+          <div class="full" id="full">Fullness Score: ${full}</div>
       </div>
   `);
   eatButtons();
