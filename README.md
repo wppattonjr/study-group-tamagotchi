@@ -1,5 +1,6 @@
 ## Study Group Project - Tamagotchi
 
+![Tomagotchi - Wendell](https://user-images.githubusercontent.com/63669713/92333185-3d4da900-f049-11ea-9a53-762eb4b5d58f.gif)
 
 ## Introduction
 This project is based on the popular Tamagotchi game from the 90's. There are four quadrants that allow you to click a button to had to your pet tamagotchi's overall score. Each button either increases or decreases your pet's score with a maximum score of 100.
